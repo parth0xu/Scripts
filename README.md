@@ -99,9 +99,72 @@ EXECUTABLE=FALSE
 
 ---
 
+
+# **Employee Data Collector**
+
+## **📌 Overview**
+This Bash script collects employee information and stores it in a CSV file (`employee_data.csv`). It prompts users for their **name, employee ID, department, and gender**, then verifies the information before saving it.
+
+---
+
+## **📌 Features**
+✅ Collects employee details interactively  
+✅ Stores data in a structured CSV format  
+✅ Ensures user confirmation before saving  
+✅ Simple and efficient to use  
+
+---
+
+## **📌 How to Use**
+
+### **1️⃣ Clone the Repository**
+```bash
+git clone https://github.com/your-username/Scripts.git
+cd Scripts
+```
+
+### **2️⃣ Grant Execute Permission**
+```bash
+chmod +x employee_data_collector.sh
+```
+
+### **3️⃣ Run the Script**
+```bash
+./employee_data_collector.sh
+```
+✔ The script will prompt you for input and save the details in `employee_data.csv`.
+
+---
+
+## **📌 Example Input & Output**
+### **User Input:**
+```
+[+] Enter your name: John Doe
+[+] Enter your employee ID: 12345
+[+] Enter your department: IT
+[+] Enter your gender: Male
+Do you have given the correct information [y/n]: y
+```
+
+### **CSV Output (`employee_data.csv`):**
+```
+John Doe,12345,IT,Male
+```
+
+---
+
+## **📌 Requirements**
+🔹 Linux or macOS (Bash Shell)  
+🔹 No additional dependencies  
+
+---
+
 ## **📌 Author**
 📌 Created by **Parth Dabgar**  
 📧 Contact: dabgarparth12@gmail.com  
 
 ---
+
+
+
 
