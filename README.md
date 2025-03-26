@@ -38,7 +38,70 @@ Then add this line at the end:
 
 ---
 
+
+# **file_details.sh - File Information Script**
+
+## **📌 Overview**
+`file_details.sh` is a Bash script that provides detailed information about a specified file, including:
+- File owner
+- File size
+- Creation date & time
+- File type
+- Read, write, and execute permissions
+
+---
+
+## **📌 How to Use**
+
+### **1️⃣ Clone the Repository**
+```bash
+git clone https://github.com/parth0xu/file_details.sh.git
+cd file_details.sh
+```
+
+### **2️⃣ Grant Execute Permission**
+```bash
+chmod +x file_details.sh
+```
+
+### **3️⃣ Run the Script**
+```bash
+./file_details.sh filename
+```
+📌 Replace `filename` with the actual file you want to check.
+
+---
+
+## **📌 Example Usage**
+```bash
+./file_details.sh myfile.txt
+```
+**Example Output:**
+```
+File Name: myfile.txt
+
+Owner: user
+Size: 1024 bytes
+This file was created on Mar 25 at 12:30
+File Type: myfile.txt: ASCII text
+
+Permissions:
+Readable=TRUE
+WRITABLE=TRUE
+EXECUTABLE=FALSE
+```
+
+---
+
+## **📌 Requirements**
+🔹 Linux System (Ubuntu, Debian, etc.)  
+🔹 Bash Shell  
+
+---
+
 ## **📌 Author**
 📌 Created by **Parth Dabgar**  
 📧 Contact: dabgarparth12@gmail.com  
+
+---
 
