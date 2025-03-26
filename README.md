@@ -55,13 +55,13 @@ Then add this line at the end:
 
 ### **1️⃣ Clone the Repository**
 ```bash
-git clone https://github.com/parth0xu/file_details.sh.git
-cd file_details.sh
+git clone https://github.com/parth0xu/Scripts.git
+cd Scripts
 ```
 
 ### **2️⃣ Grant Execute Permission**
 ```bash
-chmod +x file_details.sh
+sudo chmod +x file_details.sh
 ```
 
 ### **3️⃣ Run the Script**
