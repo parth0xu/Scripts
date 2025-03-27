@@ -159,6 +159,50 @@ John Doe,12345,IT,Male
 
 ---
 
+# Packet Sniffer in C 🕵️‍♂️
+
+A simple **network packet sniffer** written in **C** using `libpcap`. It captures packets from a specified network interface and extracts details like **IP addresses, protocols (TCP, UDP, ICMP), and ports**.
+
+## 🚀 Features
+- Captures **TCP, UDP, and ICMP** packets.
+- Extracts **source/destination IPs, ports, and TTL**.
+- Works on **Linux/macOS**.
+- Uses **libpcap** for packet capture.
+
+## 🛠 Installation
+### 📌 Install Dependencies
+#### **Ubuntu/Debian**
+```bash
+sudo apt update && sudo apt install libpcap-dev
+Arch Linux
+bash
+Copy
+Edit
+sudo pacman -S libpcap
+macOS (Homebrew)
+bash
+Copy
+Edit
+brew install libpcap
+🔧 Compile
+bash
+Copy
+Edit
+gcc -o packet_sniffer sniff.c -lpcap
+🏃‍♂️ Running the Sniffer
+bash
+Copy
+Edit
+sudo ./packet_sniffer <network_interface>
+Example:
+
+bash
+Copy
+Edit
+sudo ./packet_sniffer eth0
+⏹ Stopping the Sniffer
+Press Ctrl + C.
+
 ## **📌 Author**
 📌 Created by **Parth Dabgar**  
 📧 Contact: dabgarparth12@gmail.com  
