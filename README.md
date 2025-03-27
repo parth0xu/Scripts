@@ -163,7 +163,7 @@ John Doe,12345,IT,Male
 
 A simple network packet sniffer written in C using libpcap. It captures packets from a specified network interface and extracts details like IP addresses, protocols (TCP, UDP, ICMP), and ports.
 
-🚀 Features
+# 🚀 Features
 
 Captures TCP, UDP, and ICMP packets.
 
@@ -173,27 +173,27 @@ Works on Linux/macOS.
 
 Uses libpcap for packet capture.
 
-🛠 Installation
+# 🛠 Installation
 
-📌 Install Dependencies
+# 📌 Install Dependencies
 
-Ubuntu/Debian
+# Ubuntu/Debian
 
 sudo apt update && sudo apt install libpcap-dev
 
-Arch Linux
+# Arch Linux
 
 sudo pacman -S libpcap
 
-macOS (Homebrew)
+# macOS (Homebrew)
 
 brew install libpcap
 
-🔧 Compile
+# 🔧 Compile
 
 gcc -o sniff sniff.c -lpcap
 
-🏃‍♂️ Running the Sniffer
+# 🏃‍♂️ Running the Sniffer
 
 sudo ./sniff <network_interface>
 
